@@ -1,49 +1,50 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Clear Layers",
+    Svg: require("@site/static/img/diagrams/porto_layers.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <>
+          App code is divided into <strong>Containers</strong> and{" "}
+          <strong>Ship</strong> layers. Containers encapsulate the business
+          logic, while Ship handles all infrastructure-related code, enabling
+          easy scaling on demand by transitioning from monolithic to
+          microservices.
+        </>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Clean Components",
+    Svg: require("@site/static/img/diagrams/porto_container_interactions.svg")
+      .default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <>
+          Business logic in <strong>Containers</strong> is organized into{" "}
+          <strong>Actions</strong> and <strong>Tasks</strong>. Actions initiate
+          sequences of Tasks, each with one public function <code>run()</code>{" "}
+          for a single responsibility, thereby enhancing maintainability and
+          enabling code reusability.
+        </>
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--6")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

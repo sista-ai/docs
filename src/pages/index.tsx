@@ -2,11 +2,9 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./index.module.css";
-import VideoPage from "../components/VideoPage";
 import WelcomePage from "../components/WelcomePage";
 import SponsorsPage from "../components/SponsorsPage";
 
@@ -51,7 +49,6 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <WelcomePage />
-        <HomepageFeatures />
         <SponsorsPage />
       </main>
     </Layout>

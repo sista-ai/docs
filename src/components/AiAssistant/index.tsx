@@ -7,7 +7,7 @@ const AiAssistant = () => {
   const history = useHistory();
 
   const navigateToPage = ({ page }) => {
-    history.push(`/Porto/${page}`);
+    history.push(`/docs/${page}`);
   };
 
   const navigateToExternalUrl = ({ url }) => {

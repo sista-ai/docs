@@ -16,7 +16,7 @@ import SupportedSDKs from '@site/src/components/SupportedSDKs';
 
 This package supports a diverse range of React-based projects:
 
-<SupportedSDKs filter={['NextJS', 'Electron', 'Gatsby', 'Meteor', 'React Native', 'Remix', 'RedwoodJS', 'Expo', 'BlitzJS']} />
+<SupportedSDKs numPerRow={5} filter={['React', 'NextJS', 'Electron', 'Gatsby', 'Meteor', 'React Native', 'Remix', 'RedwoodJS', 'Expo', 'BlitzJS']} />
 
 ## Installation (React)
 

@@ -95,11 +95,6 @@ const config: Config = {
           label: "Admin",
           position: "right",
         },
-        {
-          href: "https://admin.sista.ai",
-          label: "Sista AI",
-          position: "right",
-        },
       ],
     },
     colorMode: {

@@ -7,8 +7,15 @@ sidebar_position: 14
 import FrameworksTabs from '@site/src/components/FrameworksTabs';
 import TabItem from '@theme/TabItem';
 
+---
+
 <FrameworksTabs>
 <TabItem value='react'>
+
+---
+
+<br/>
+<br/>
 
 ## 1. AI Characteristics
 
@@ -16,11 +23,17 @@ Customize the assistant behavior via the [Admin Panel](https://admin.sista.ai/ap
 
 > By default, `AiAssistantProvider` supplies the AI model with the current screen content. To disable, set `scrapeContent` to false. Scraped content supplements your custom prompts added from the admin panel.
 
+<br/>
+<br/>
+
 ## 2. Assistant Voice
 
 Change AI assistant's voice via the [Admin Panel](https://admin.sista.ai/applications) by selecting your preferred voice in the application settings.
 
-## 3 Button Design
+<br/>
+<br/>
+
+## 3. Button Design
 
 ### 3.1 Button Color
 
@@ -36,6 +49,8 @@ const customStateColors = {
 
 <AiAssistantButton stateColors={customStateColors} />;
 ```
+
+<br/>
 
 ### 3.2 Button Style & Position
 
@@ -76,6 +91,8 @@ const customStyle = {
 
 For example: To override default positioning, set `position: 'relative'` and `bottom/right: 'auto'`. This allows custom placement within your container.
 
+<br/>
+
 ### 3.3 Button Advanced Styling
 
 Apply CSS classes for complex styling:
@@ -103,17 +120,6 @@ Apply CSS classes for complex styling:
 
 Use the `style` prop for inline adjustments or `className` for stylesheet-based customizations.
 
-## 4 Button Click Event Tracking
-
-To track button click events, you can pass a function to the onClick prop of the button.
-
-```jsx
-const trackAiAssistantButtonClick = () => {
-  console.log("AiAssistantButton Clicked!");
-};
-
-<AiAssistantButton onClick={trackAiAssistantButtonClick} />
-```
 
 </TabItem>
 

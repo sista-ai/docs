@@ -7,12 +7,21 @@ sidebar_position: 12
 import FrameworksTabs from '@site/src/components/FrameworksTabs';
 import TabItem from '@theme/TabItem';
 
+---
+
 <FrameworksTabs>
 <TabItem value='react'>
 
+---
+
+<br/>
+<br/>
+
 ## Register Voice-Interactive Functions
 
-To enable AI to control the UI using voice commands, you need to inform the model which functions it can call by registering an `array` of `function signatures`.
+To allow AI to control your UI:
+
+1. Inform the model which functions it can call by registering an `array` of `function signatures`.
 
 ```jsx
 const sayHelloWorld = () => {
@@ -31,21 +40,28 @@ const aiFunctions = [
 ];
 ```
 
-Register the functions using `registerFunctions([...]);` inside a `useEffect` hook.
+2. Register the functions using `registerFunctions([...]);` inside a `useEffect` hook.
 
 ```jsx
 const { registerFunctions } = useAiAssistant();
 
 useEffect(() => {
+
   if (registerFunctions) {
     registerFunctions(aiFunctions);
   }
+  
 }, [registerFunctions]);
 ```
 
 > Just like that, your app is voice-interactive. Magic! :sparkles:
 
-For functions that accepts parameters: simply describe the parameters
+<br/>
+<br/>
+
+## Functions With Parameters:
+
+For functions that accepts parameters: simply describe the parameters.
 
 ```jsx
 const sayHello = (name) => {
@@ -94,6 +110,9 @@ const aiFunctions = [
 ```
 
 ---
+
+<br/>
+<br/>
 
 ## Full Example: (Todo App)
 
@@ -172,6 +191,18 @@ function TodoApp() {
 
 export default TodoApp;
 ```
+
+
+<br/>
+<br/>
+
+## Tip! Auto-Generate Signatures
+
+Use ChatGPT or GitHub Copilot to auto-generate function signatures. 
+
+Simply copy this documentation page into your model, along with your component code and a list of the functions you would like to voice-enable.
+
+
 
 </TabItem>
 

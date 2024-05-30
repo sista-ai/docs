@@ -14,7 +14,7 @@ function HomepageHeader() {
     <header
       className={clsx("hero", styles.heroBanner)}
       style={{
-        backgroundColor: "#1e232e",
+        backgroundColor: "var(--ifm-color-header-background)",
       }}
     >
       <div
@@ -28,7 +28,7 @@ function HomepageHeader() {
       >
         <Heading style={{ fontSize: "5em" }} as="h1" className="hero__title">
           {siteConfig.title}{" "}
-          <span style={{ color: "#6de986" }}>Documentation</span>
+          <span style={{ color: "var(--ifm-color-documentation-title)" }}>Documentation</span>
         </Heading>
         <p style={{ fontSize: "3em" }} className="hero__subtitle">
           {siteConfig.tagline}

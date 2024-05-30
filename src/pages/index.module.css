@@ -29,5 +29,5 @@
 }
 
 .bigButton:hover {
-  color: #6de986;
+  color: var(--ifm-color-green);
 }

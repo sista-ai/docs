@@ -3,11 +3,11 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"docusaurus": "docusaurus",
 		"start": "docusaurus start --port 4000",
+		"deploy": "docusaurus build && gh-pages -d build",
+		"docusaurus": "docusaurus",
 		"build": "docusaurus build",
 		"swizzle": "docusaurus swizzle",
-		"deploy": "docusaurus deploy",
 		"clear": "docusaurus clear",
 		"serve": "docusaurus serve",
 		"write-translations": "docusaurus write-translations",
@@ -16,9 +16,12 @@
 	},
 	"dependencies": {
 		"@docusaurus/core": "3.3.2",
+		"@docusaurus/plugin-google-gtag": "^3.3.2",
 		"@docusaurus/preset-classic": "3.3.2",
 		"@mdx-js/react": "^3.0.0",
+		"@sista/ai-assistant-react": "^2.2.32",
 		"clsx": "^2.0.0",
+		"gh-pages": "^6.1.1",
 		"prism-react-renderer": "^2.3.0",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0"

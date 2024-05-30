@@ -4,8 +4,8 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 7rem 0;
+  text-align: left;
   position: relative;
   overflow: hidden;
 }
@@ -18,6 +18,16 @@
 
 .buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+}
+.bigButton {
+  font-size: 2.2rem;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-weight: normal;
+}
+
+.bigButton:hover {
+  color: #6de986;
 }

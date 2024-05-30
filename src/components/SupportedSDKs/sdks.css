@@ -1,0 +1,16 @@
+
+.frameworks-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .frameworks-table td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .frameworks-table img {
+    width: 100px;
+    height: 100px;
+  }
+  

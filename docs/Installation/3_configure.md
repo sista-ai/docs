@@ -19,19 +19,19 @@ import TabItem from '@theme/TabItem';
 
 ## 1. Access Control
 
-Access control is a critical security measure that ensures only authorized users can interact with your system.
+Access control is a critical security measure that ensures only authorized users can access.
 
 <br/>
 
-### 1.1 Domain / IP Whitelisting
+### 1.1 Domain / IP Whitelisting   (Required)
 
-To secure your production environment, you must whitelist your domains / IPs through the [Admin Panel](https://admin.sista.ai/applications).
+In production, **you must** whitelist your domains / IPs through the [Admin Panel](https://admin.sista.ai/applications?tab=access-control).
 
 <br/>
 
 ### 1.2 Rate Limit Control
 
-To prevent abuse, configure request limits per user within a specified timeframe via the [Admin Panel](https://admin.sista.ai/applications).
+To prevent abuse, configure request limits per user within a timeframe via the [Admin Panel](https://admin.sista.ai/applications?tab=access-control).
 
 
 <br/>

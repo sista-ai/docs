@@ -10,11 +10,11 @@ import SupportedSDKs from '@site/src/components/SupportedSDKs';
 
 # Welcome to Sista AI
 
-This guide will introduce you to the essential features and setup steps to integrate Sista AI into your applications quickly.
-
 Give your App a voice, with a conversational AI assistant and interactive voice UI **in less than 10 minutes**!
 
 **No Code Changes! No Intent Definitions!** _Just add our magic button `<AiAssistantButton />`._
+
+This guide will introduce you to all the setup steps to integrate an AI Assistant into your App.
 
 ## What is Sista AI?
 

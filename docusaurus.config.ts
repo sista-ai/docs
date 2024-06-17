@@ -86,13 +86,18 @@ const config: Config = {
         // },
         // { to: "/blog", label: "Blog", position: "left" },
         {
+          href: "https://discord.gg/zkfMBCDR",
+          label: "Discord",
+          position: "right",
+        },
+        {
           href: "https://github.com/sista-ai",
           label: "GitHub",
           position: "right",
         },
         {
           href: "https://admin.sista.ai",
-          label: "Admin",
+          label: "Dashboard",
           position: "right",
         },
       ],

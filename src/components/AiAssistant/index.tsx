@@ -80,7 +80,7 @@ const AiAssistant = () => {
               url: {
                 type: "string",
                 description:
-                  "The URL to navigate to. For 'Github' go to 'https://github.com/sista-ai'. For 'Sista' go to 'https://smart.sista.ai/?utm_source=docs_porto&utm_medium=ai_assistant&utm_campaign=user_request_for_navigation'.",
+                  "The URL to navigate to. For 'Github' go to 'https://github.com/sista-ai'. For 'Sista' go to 'https://smart.sista.ai/?utm_source=docs_sista&utm_medium=ai_assistant&utm_campaign=user_request_for_navigation'.",
               },
             },
             required: ["url"],
@@ -108,6 +108,7 @@ const AiAssistant = () => {
             "Turn On / Off the light. Change theme color. Switches between dark and light modes. Toggle the theme.",
         },
       },
+      // Add more functions here...
     ];
 
     if (registerFunctions) {

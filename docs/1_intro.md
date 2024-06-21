@@ -68,7 +68,7 @@ Here are some open-source, real-world implementations:
 
 - **Porto SAP**: [Live Demo](https://mahmoudz.github.io/Porto/) - [Source Code](https://github.com/Mahmoudz/Porto/blob/master/docs/src/components/AiAssistant/index.tsx).
 - **Apiato**: [Live Demo](https://apiato.io/) - [Source Code](https://github.com/apiato/documentation/blob/master/src/components/AiAssistant/index.js).
-- **Sista AI Docs**: [Live Demo](https://docs.sista.ai/) - [Source Code](https://github.com/sista-ai/docs/blob/main/src/components/AiAssistant/index.tsx).
+- **Sista AI**: [Live Demo](https://docs.sista.ai/) - [Source Code](https://github.com/sista-ai/docs/blob/main/src/components/AiAssistant/index.tsx).
 
 ---
 

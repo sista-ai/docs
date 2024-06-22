@@ -63,6 +63,7 @@ const AiAssistant = () => {
                   "installation/setup",
                   "installation/configure",
                   "installation/customize",
+                  "contribute",
                 ],
               },
             },

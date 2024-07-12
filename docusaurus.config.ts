@@ -86,7 +86,7 @@ const config: Config = {
         // },
         // { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://discord.gg/zkfMBCDR",
+          href: "https://discord.gg/jp4egQgW",
           label: "Discord",
           position: "right",
         },

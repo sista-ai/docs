@@ -18,7 +18,7 @@ This guide will introduce you to all the setup steps to integrate an AI Assistan
 
 ## What is Sista AI?
 
-Sista AI is an end-to-end AI integration platform that enables you to add conversational AI, voice UI, and UI control to your Apps and websites quickly and easily, without any code changes! This is the most advanced AI assistant on the market and the easiest to integrate, designed by developers for developers.
+[Sista AI](https://smart.sista.ai/?utm_source=sista_docs&utm_medium=docs_text&utm_campaign=what_is_sista) is an end-to-end AI integration platform is an end-to-end AI integration platform that enables you to add conversational AI, voice UI, and UI control to your Apps and websites quickly and easily, without any code changes! This is the most advanced AI assistant on the market and the easiest to integrate, designed by developers for developers.
 
 ## Supported Platforms
 

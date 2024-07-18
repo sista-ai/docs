@@ -7,7 +7,7 @@ const AiAssistant = () => {
   const history = useHistory();
 
   const navigateToPage = ({ page }) => {
-    history.push(`/docs/${page}`);
+    history.push(`/${page}`);
   };
 
   const navigateToExternalUrl = ({ url }) => {
@@ -47,7 +47,7 @@ const AiAssistant = () => {
         function: {
           handler: navigateToPage,
           description:
-            "Go to a specific page. Navigate to a page. Internal pages. This is what the user often wants, when asking for navigation. Each page contains info about the specific topic, as you can tell from the page name.",
+            "Go to a specific page. Navigate to a page. Internal pages. This is what the user often wants, when asking for navigation. Also when asking questions about locating pieces of information. Cause each page contains info about the specific topic, as you can tell from the page name.",
           parameters: {
             type: "object",
             properties: {

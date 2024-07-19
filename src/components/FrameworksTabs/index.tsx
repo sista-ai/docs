@@ -7,20 +7,21 @@ const FrameworksTabs = ({ children }) => (
     defaultValue="react"
     values={[
       {label: 'React', value: 'react'},
-      {label: 'Vue', value: 'vue'},
+			{label: 'JavaScript', value: 'js'},
       {label: 'iOS', value: 'ios'},
       {label: 'Android', value: 'android'},
+			{label: 'Ionic', value: 'ionic'},
+			{label: 'Vue', value: 'vue'},
       {label: 'Angular', value: 'angular'},
-      {label: 'Ember', value: 'ember'},
-      {label: 'Svelte', value: 'svelte'},
       {label: 'Gatsby', value: 'gatsby'},
-      {label: 'Dart', value: 'dart'},
-      {label: 'Ionic', value: 'ionic'},
       {label: 'Cordova', value: 'cordova'},
       {label: 'Flutter', value: 'flutter'},
       {label: 'Maui', value: 'maui'},
       {label: 'Xamarin', value: 'xamarin'},
-      {label: 'JavaScript', value: 'js'},
+			{label: 'Dart', value: 'dart'},
+			{label: 'Ember', value: 'ember'},
+      {label: 'Svelte', value: 'svelte'},
+
     ]}
   >
     {children}

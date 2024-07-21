@@ -50,7 +50,7 @@ useEffect(() => {
   if (registerFunctions) {
     registerFunctions(aiFunctions);
   }
-  
+
 }, [registerFunctions]);
 ```
 
@@ -196,12 +196,14 @@ export default TodoApp;
 <br/>
 <br/>
 
-## Tip! Auto-Generate Signatures
+## Pro Tip: Auto-Generate Signatures with AI
 
-Use ChatGPT or GitHub Copilot to auto-generate function signatures. 
+Use ChatGPT or GitHub Copilot to auto-generate function signatures. Simply copy this documentation page into your model, along with your component code and a list of the functions you would like to voice-enable.
 
-Simply copy this documentation page into your model, along with your component code and a list of the functions you would like to voice-enable.
 
+## Code Examples
+
+For practical implementation code samples, check out [Sista AI Real World Implementations](/intro/#real-world-implementations).
 
 
 </TabItem>

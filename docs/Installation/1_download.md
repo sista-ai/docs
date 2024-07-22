@@ -18,6 +18,14 @@ import SupportedSDKs from '@site/src/components/SupportedSDKs';
 <br/>
 <br/>
 
+
+## Intro
+
+Let’s get started! Integrating a conversational AI assistant into your apps and websites has never been simpler with Sista AI’s Plug & Play AI Voice Assistant. This guide will show you how to effortlessly add the AI assistant button in three straightforward steps, instantly transforming your application with minimal effort.
+
+<br/>
+<br/>
+
 ## Supported React-based Frameworks
 
 This package supports a diverse range of React-based frameworks:

@@ -1,6 +1,6 @@
 ---
 id: customize
-title: 4. Customize Your AI
+title: 4. Customization
 sidebar_position: 14
 ---
 
@@ -13,6 +13,14 @@ import TabItem from '@theme/TabItem';
 <TabItem value='react'>
 
 ---
+
+<br/>
+<br/>
+
+
+## Intro
+
+Customize your AI assistant to perfectly fit your brand and user experience. This guide covers how to adjust the AI characteristics, change the assistant’s voice, and style the assistant button to match your application’s design. Tailor every aspect to make the AI assistant truly yours.
 
 <br/>
 <br/>

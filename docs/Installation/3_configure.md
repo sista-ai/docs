@@ -1,6 +1,6 @@
 ---
 id: configure
-title: 3. Configure Your App
+title: 3. Configuration
 sidebar_position: 13
 ---
 
@@ -16,6 +16,15 @@ import TabItem from '@theme/TabItem';
 
 <br/>
 <br/>
+
+
+## Intro
+
+Gain full control over your AI assistant with our powerful admin panel. While most settings are optional, whitelisting your domains is required for production deployment. These settings give you complete oversight of user interactions, helping you manage usage and control costs effectively.
+
+<br/>
+<br/>
+
 
 ## 1. Access Control
 

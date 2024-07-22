@@ -1,6 +1,6 @@
 ---
 id: setup
-title: 2. Setup UI Controller
+title: 2. Setup Voice UI
 sidebar_position: 12
 ---
 
@@ -17,9 +17,14 @@ import TabItem from '@theme/TabItem';
 <br/>
 <br/>
 
-## Register Voice-Interactive Functions
+## Intro
 
-To allow AI to control your UI:
+To give your AI assistant control over the user interface, you need to specify the functions it can call, along with clear descriptions of their purposes. In this guide, we’ll demonstrate how to easily set up voice UI, allowing your users to interact with your app through simple voice commands.
+
+<br/>
+<br/>
+
+## Register Voice-Controlled Functions
 
 1. Inform the model which functions it can call by registering an `array` of `function signatures`.
 

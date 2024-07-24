@@ -1926,9 +1926,9 @@
   integrity sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==
 
 "@sista/ai-assistant-react@^2.2.32":
-  version "2.2.37"
-  resolved "https://registry.yarnpkg.com/@sista/ai-assistant-react/-/ai-assistant-react-2.2.37.tgz#674641c13d1d8354bce80a9b18b24cbb29404c71"
-  integrity sha512-KE7zpBj6uuofqwPaD+pTTSiQ1IuiPZlai9U5Gx5pRtnrbm43j0zk00FoS6IPuNqpaFIEqlFeoDtqeRKYocFXcw==
+  version "2.2.38"
+  resolved "https://registry.yarnpkg.com/@sista/ai-assistant-react/-/ai-assistant-react-2.2.38.tgz#da2ba7f166dd25687af6646f0d9b240e328a3377"
+  integrity sha512-L+jU0tpynfSt4liHR6RgrCJwTFR5PSvdvVYEk9kAKc/bEx+49HHae8d3rCm32R8zhm40r0kCitPyDo3Nb1T9fg==
   dependencies:
     "@sentry/react" "^8.19.0"
     howler "^2.2.4"

@@ -90,26 +90,13 @@ const config: Config = {
           label: "AI Blog",
           position: "left",
         },
-        {
-          href: "https://smart.sista.ai/privacy.html?utm_source=sista_docs&utm_medium=header_link&utm_campaign=privacy_policy",
-          label: "Privacy",
-          position: "left",
-        },
-				{
-          href: "https://smart.sista.ai/about.html?utm_source=sista_docs&utm_medium=header_link&utm_campaign=about_sista_ai",
-          label: "About Us",
-          position: "left",
-        },
+
         {
           href: "https://discord.gg/e2arxq9Js4",
           label: "Discord",
           position: "right",
         },
-        {
-          href: "https://github.com/sista-ai",
-          label: "GitHub",
-          position: "right",
-        },
+
         {
           href: "https://admin.sista.ai",
           label: "Dashboard",

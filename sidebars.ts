@@ -43,6 +43,26 @@ const sidebars: SidebarsConfig = {
       defaultStyle: false,
     },
     "contribute",
+    {
+      type: "link",
+      label: "Free Access Key",
+      href: "https://admin.sista.ai/applications",
+    },
+    {
+      type: "link",
+      label: "Open Source",
+      href: "https://github.com/sista-ai",
+    },
+		{
+      type: "link",
+      label: "Privacy",
+      href: "https://smart.sista.ai/privacy.html?utm_source=sista_docs&utm_medium=header_link&utm_campaign=privacy_policy",
+    },
+    {
+      type: "link",
+      label: "About Us",
+      href: "https://smart.sista.ai/about.html?utm_source=sista_docs&utm_medium=header_link&utm_campaign=about_sista_ai",
+    },
   ],
 };
 

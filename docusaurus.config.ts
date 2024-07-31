@@ -86,7 +86,7 @@ const config: Config = {
         // },
         // { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://smart.sista.ai/about.html?utm_source=sista_docs&utm_medium=header_link&utm_campaign=home_link",
+          href: "https://smart.sista.ai?utm_source=sista_docs&utm_medium=header_link&utm_campaign=home_link",
           label: "Home",
           position: "left",
         },

@@ -33,7 +33,7 @@ const sayHelloWorld = () => {
   console.log("Hello, World!");
 };
 
-// Define the functions to be voice-controlled
+// define functions for AI to call
 const aiFunctions = [
   {
     function: {
@@ -48,14 +48,13 @@ const aiFunctions = [
 2. Register the functions using `registerFunctions([...]);` inside a `useEffect` hook.
 
 ```jsx
+// register the AI functions
 const { registerFunctions } = useAiAssistant();
 
 useEffect(() => {
-
   if (registerFunctions) {
-    registerFunctions(aiFunctions);
+    registerFunctions(aiFunctions); // pass the AI functions array to the Assistant
   }
-
 }, [registerFunctions]);
 ```
 
@@ -77,7 +76,7 @@ const navigateToPage = (page) => {
   console.log(`Navigating to ${page}`);
 };
 
-// Define the functions to be voice-controlled
+// Define functions for AI to call
 const aiFunctions = [
   {
     function: {
@@ -126,6 +125,7 @@ For a voice-interactive todo app to `add` or `remove` tasks, the setup looks lik
 ```jsx
 import React, { useEffect } from "react";
 import { useAiAssistant, AiAssistantButton } from "@sista/ai-assistant-react";
+// ...
 
 function TodoApp() {
   const addTask = (task) => {
@@ -138,11 +138,11 @@ function TodoApp() {
 
   // ...
 
-  // Initialize the aiAssistant instance
+  // 1) Initialize the aiAssistant instance
   const { registerFunctions } = useAiAssistant();
 
   useEffect(() => {
-    // Define the voice-controlled functions
+    // 2) Define the voice-controlled functions
     const aiFunctions = [
       {
         function: {
@@ -176,9 +176,10 @@ function TodoApp() {
           },
         },
       },
+      // ...
     ];
 
-    // Register the AI controlled functions
+    // 3) Register the voice-controlled functions
     if (registerFunctions) {
       registerFunctions(aiFunctions);
     }
@@ -186,9 +187,9 @@ function TodoApp() {
 
   // ...
 
+  // 4) Inject the AI button
   return (
     <div>
-      // ...
       <AiAssistantButton />
     </div>
   );
@@ -197,7 +198,6 @@ function TodoApp() {
 export default TodoApp;
 ```
 
-
 <br/>
 <br/>
 
@@ -205,11 +205,9 @@ export default TodoApp;
 
 Use ChatGPT or GitHub Copilot to auto-generate function signatures. Simply copy this documentation page into your model, along with your component code and a list of the functions you would like to voice-enable.
 
-
 ## Code Examples
 
 For practical implementation code samples, check out [Sista AI Real World Implementations](/intro/#real-world-implementations).
-
 
 </TabItem>
 

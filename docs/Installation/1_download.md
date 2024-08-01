@@ -1,6 +1,6 @@
 ---
 id: download
-title: 1. Install AI Assistant
+title: 1. Install AI Assistant Button
 sidebar_position: 11
 ---
 

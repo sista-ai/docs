@@ -1,6 +1,6 @@
 ---
 id: setup
-title: 2. Setup Voice UI
+title: 2. Setup Voice UI Controller
 sidebar_position: 12
 ---
 

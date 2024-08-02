@@ -51,17 +51,12 @@ const sidebars: SidebarsConfig = {
     {
       type: "link",
       label: "Open Source",
-      href: "https://github.com/sista-ai",
+      href: "https://github.com/sista-ai?q=&type=public",
     },
 		{
       type: "link",
       label: "Privacy",
       href: "https://smart.sista.ai/privacy.html?utm_source=sista_docs&utm_medium=sider_link&utm_campaign=privacy_policy",
-    },
-    {
-      type: "link",
-      label: "About Us",
-      href: "https://smart.sista.ai/about.html?utm_source=sista_docs&utm_medium=sider_link&utm_campaign=about_sista_ai",
     },
   ],
 };

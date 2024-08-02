@@ -91,11 +91,23 @@ const config: Config = {
           position: "left",
         },
 				{
+          href: "https://smart.sista.ai/about.html?utm_source=sista_docs&utm_medium=sider_link&utm_campaign=about_sista_ai/",
+          label: "About",
+          position: "left",
+        },
+
+				{
           href: "https://blog.sista.ai/",
           label: "Blog",
           position: "left",
         },
 
+
+        {
+          href: "https://github.com/sista-ai",
+          label: "Github",
+          position: "right",
+        },
         {
           href: "https://discord.gg/e2arxq9Js4",
           label: "Discord",

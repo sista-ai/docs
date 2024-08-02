@@ -91,7 +91,7 @@ const config: Config = {
           position: "left",
         },
 				{
-          href: "https://smart.sista.ai/about.html?utm_source=sista_docs&utm_medium=sider_link&utm_campaign=about_sista_ai/",
+          href: "https://smart.sista.ai/about.html?utm_source=sista_docs&utm_medium=header_link&utm_campaign=about_sista_ai/",
           label: "About",
           position: "left",
         },

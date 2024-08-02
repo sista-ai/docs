@@ -6,9 +6,12 @@ sidebar_position: 1
 
 import SupportedSDKs from '@site/src/components/SupportedSDKs';
 
-[![Sista AI Admin Panel](../static/img/sista-banner-one.png)](https://smart.sista.ai/?utm_source=sista_docs&utm_medium=main_banner&utm_campaign=intro)
 
-# Welcome to Sista AI
+# Introduction
+
+## Welcome
+
+[![Sista AI Admin Panel](../static/img/sista-banner-one.png)](https://smart.sista.ai/?utm_source=sista_docs&utm_medium=main_banner&utm_campaign=intro)
 
 Give your App a voice, with a conversational AI assistant and interactive voice UI **in less than 10 minutes**!
 
@@ -19,6 +22,9 @@ This guide will introduce you to all the setup steps to integrate an AI Assistan
 ## What is Sista AI?
 
 [Sista AI](https://smart.sista.ai/?utm_source=sista_docs&utm_medium=docs_text&utm_campaign=what_is_sista) is an end-to-end AI integration platform that enables you to add conversational AI, voice UI, and UI control to your Apps and websites quickly and easily, without any code changes! This is the most advanced AI assistant on the market and the easiest to integrate, designed by developers for developers.
+
+
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/iGX4ARuWZec" title="Sista AI Tutorial Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Supported Platforms
 
@@ -31,8 +37,8 @@ Our AI technology is supported across all platforms, delivering a unified experi
 
 - **AI Assistant:** Answers any question
 - **UI Controller:** Performs any action
+- **Context Awareness:** Read any screen
 - **Voice UI:** Speaks any language
-- **Auto Scraper:** Scrape any page
 - **Admin Panel:** Customizes any detail
 
 ## Demo

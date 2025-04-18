@@ -14,12 +14,23 @@ const Layout = (props) => {
 };
 
 const Providers = (props) => {
+  // For debugging, temporarily force the dev API key and add detailed logging
+  const apiKey = config.SISTA_AI_API_KEY_DEV;
+  const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+  const apiUrl = isDevelopment ? "http://localhost:3077" : undefined;
+
+  // console.log('Debug Info:');
+  // console.log('Current hostname:', window.location.hostname);
+  // console.log('Is development:', isDevelopment);
+  // console.log('Using API Key:', apiKey);
+  // console.log('Using API URL:', apiUrl);
+  // console.log('Full config:', JSON.stringify(config, null, 2));
+
   return (
     <AiAssistantProvider
       debug={true}
-      apiKey={config.SISTA_AI_API_KEY}
-      // apiKey={config.SISTA_AI_API_KEY_DEV}
-      // apiUrl="http://localhost:3077"
+      apiKey={apiKey}
+      apiUrl={apiUrl}
     >
       <Layout {...props} />
     </AiAssistantProvider>

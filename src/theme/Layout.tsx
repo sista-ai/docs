@@ -14,9 +14,8 @@ const Layout = (props) => {
 };
 
 const Providers = (props) => {
-  // For debugging, temporarily force the dev API key and add detailed logging
-  const apiKey = config.SISTA_AI_API_KEY_DEV;
   const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+  const apiKey = isDevelopment ? config.SISTA_AI_API_KEY_DEV : config.SISTA_AI_API_KEY;
   const apiUrl = isDevelopment ? "http://localhost:3077" : undefined;
 
   // console.log('Debug Info:');
